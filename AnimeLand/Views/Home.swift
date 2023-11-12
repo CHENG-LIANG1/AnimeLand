@@ -10,6 +10,7 @@ import SwiftUI
 struct Home: View {
     @EnvironmentObject var network: Network
     @State var recommendations: [RecommendedAnime] = []
+    @available(iOS 15.0, *)
     var body: some View {
         ScrollView {
             VStack {

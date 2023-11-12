@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593A5A6D982BE80E0FE352DB /* Pods_AnimeLand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA68AD35688ED310F3FC3017 /* Pods_AnimeLand.framework */; };
 		BF02287D2AFF6A8F00A862F0 /* AnimeLandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02287C2AFF6A8F00A862F0 /* AnimeLandApp.swift */; };
 		BF02287F2AFF6A8F00A862F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02287E2AFF6A8F00A862F0 /* ContentView.swift */; };
-		BF0228812AFF6A8F00A862F0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0228802AFF6A8F00A862F0 /* Item.swift */; };
 		BF0228832AFF6A9000A862F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0228822AFF6A9000A862F0 /* Assets.xcassets */; };
 		BF0228872AFF6A9000A862F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0228862AFF6A9000A862F0 /* Preview Assets.xcassets */; };
-		BF0228922AFF6A9000A862F0 /* AnimeLandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0228912AFF6A9000A862F0 /* AnimeLandTests.swift */; };
-		BF02289C2AFF6A9000A862F0 /* AnimeLandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02289B2AFF6A9000A862F0 /* AnimeLandUITests.swift */; };
-		BF02289E2AFF6A9000A862F0 /* AnimeLandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02289D2AFF6A9000A862F0 /* AnimeLandUITestsLaunchTests.swift */; };
 		BF0228AC2AFF78FB00A862F0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0228AB2AFF78FB00A862F0 /* Network.swift */; };
 		BF0228AF2AFF79A900A862F0 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0228AE2AFF79A900A862F0 /* UserModel.swift */; };
 		BF0228B22AFF7B4C00A862F0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0228B12AFF7B4C00A862F0 /* Home.swift */; };
@@ -22,42 +19,22 @@
 		BF0228B62AFF840A00A862F0 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0228B52AFF840A00A862F0 /* ResponseModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BF02288E2AFF6A9000A862F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF0228712AFF6A8F00A862F0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF0228782AFF6A8F00A862F0;
-			remoteInfo = AnimeLand;
-		};
-		BF0228982AFF6A9000A862F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF0228712AFF6A8F00A862F0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF0228782AFF6A8F00A862F0;
-			remoteInfo = AnimeLand;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		7D2AE357E001C814E1217BD1 /* Pods-AnimeLand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeLand.debug.xcconfig"; path = "Target Support Files/Pods-AnimeLand/Pods-AnimeLand.debug.xcconfig"; sourceTree = "<group>"; };
+		AA68AD35688ED310F3FC3017 /* Pods_AnimeLand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimeLand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0228792AFF6A8F00A862F0 /* AnimeLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF02287C2AFF6A8F00A862F0 /* AnimeLandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeLandApp.swift; sourceTree = "<group>"; };
 		BF02287E2AFF6A8F00A862F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BF0228802AFF6A8F00A862F0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BF0228822AFF6A9000A862F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF0228842AFF6A9000A862F0 /* AnimeLand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimeLand.entitlements; sourceTree = "<group>"; };
 		BF0228862AFF6A9000A862F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF0228882AFF6A9000A862F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF02288D2AFF6A9000A862F0 /* AnimeLandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeLandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF0228912AFF6A9000A862F0 /* AnimeLandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeLandTests.swift; sourceTree = "<group>"; };
-		BF0228972AFF6A9000A862F0 /* AnimeLandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeLandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF02289B2AFF6A9000A862F0 /* AnimeLandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeLandUITests.swift; sourceTree = "<group>"; };
-		BF02289D2AFF6A9000A862F0 /* AnimeLandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeLandUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF0228AB2AFF78FB00A862F0 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		BF0228AE2AFF79A900A862F0 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		BF0228B12AFF7B4C00A862F0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		BF0228B32AFF825000A862F0 /* AnimeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeModels.swift; sourceTree = "<group>"; };
 		BF0228B52AFF840A00A862F0 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		D2024A55F326DCB6AD5DE7D5 /* Pods-AnimeLand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeLand.release.xcconfig"; path = "Target Support Files/Pods-AnimeLand/Pods-AnimeLand.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,33 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF02288A2AFF6A9000A862F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF0228942AFF6A9000A862F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				593A5A6D982BE80E0FE352DB /* Pods_AnimeLand.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C8FEE42200F58879B90E9B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D2AE357E001C814E1217BD1 /* Pods-AnimeLand.debug.xcconfig */,
+				D2024A55F326DCB6AD5DE7D5 /* Pods-AnimeLand.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE7F9A0622249E9E62554B37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA68AD35688ED310F3FC3017 /* Pods_AnimeLand.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF0228702AFF6A8F00A862F0 = {
 			isa = PBXGroup;
 			children = (
 				BF02287B2AFF6A8F00A862F0 /* AnimeLand */,
-				BF0228902AFF6A9000A862F0 /* AnimeLandTests */,
-				BF02289A2AFF6A9000A862F0 /* AnimeLandUITests */,
 				BF02287A2AFF6A8F00A862F0 /* Products */,
+				5C8FEE42200F58879B90E9B2 /* Pods */,
+				BE7F9A0622249E9E62554B37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				BF0228792AFF6A8F00A862F0 /* AnimeLand.app */,
-				BF02288D2AFF6A9000A862F0 /* AnimeLandTests.xctest */,
-				BF0228972AFF6A9000A862F0 /* AnimeLandUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +92,6 @@
 				BF0228AA2AFF78E700A862F0 /* Network */,
 				BF02287C2AFF6A8F00A862F0 /* AnimeLandApp.swift */,
 				BF02287E2AFF6A8F00A862F0 /* ContentView.swift */,
-				BF0228802AFF6A8F00A862F0 /* Item.swift */,
 				BF0228822AFF6A9000A862F0 /* Assets.xcassets */,
 				BF0228842AFF6A9000A862F0 /* AnimeLand.entitlements */,
 				BF0228882AFF6A9000A862F0 /* Info.plist */,
@@ -128,23 +106,6 @@
 				BF0228862AFF6A9000A862F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BF0228902AFF6A9000A862F0 /* AnimeLandTests */ = {
-			isa = PBXGroup;
-			children = (
-				BF0228912AFF6A9000A862F0 /* AnimeLandTests.swift */,
-			);
-			path = AnimeLandTests;
-			sourceTree = "<group>";
-		};
-		BF02289A2AFF6A9000A862F0 /* AnimeLandUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BF02289B2AFF6A9000A862F0 /* AnimeLandUITests.swift */,
-				BF02289D2AFF6A9000A862F0 /* AnimeLandUITestsLaunchTests.swift */,
-			);
-			path = AnimeLandUITests;
 			sourceTree = "<group>";
 		};
 		BF0228AA2AFF78E700A862F0 /* Network */ = {
@@ -180,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF0228A12AFF6A9000A862F0 /* Build configuration list for PBXNativeTarget "AnimeLand" */;
 			buildPhases = (
+				8EB6C0D3ADD4050297458B9D /* [CP] Check Pods Manifest.lock */,
 				BF0228752AFF6A8F00A862F0 /* Sources */,
 				BF0228762AFF6A8F00A862F0 /* Frameworks */,
 				BF0228772AFF6A8F00A862F0 /* Resources */,
@@ -193,42 +155,6 @@
 			productReference = BF0228792AFF6A8F00A862F0 /* AnimeLand.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF02288C2AFF6A9000A862F0 /* AnimeLandTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF0228A42AFF6A9000A862F0 /* Build configuration list for PBXNativeTarget "AnimeLandTests" */;
-			buildPhases = (
-				BF0228892AFF6A9000A862F0 /* Sources */,
-				BF02288A2AFF6A9000A862F0 /* Frameworks */,
-				BF02288B2AFF6A9000A862F0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF02288F2AFF6A9000A862F0 /* PBXTargetDependency */,
-			);
-			name = AnimeLandTests;
-			productName = AnimeLandTests;
-			productReference = BF02288D2AFF6A9000A862F0 /* AnimeLandTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BF0228962AFF6A9000A862F0 /* AnimeLandUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF0228A72AFF6A9000A862F0 /* Build configuration list for PBXNativeTarget "AnimeLandUITests" */;
-			buildPhases = (
-				BF0228932AFF6A9000A862F0 /* Sources */,
-				BF0228942AFF6A9000A862F0 /* Frameworks */,
-				BF0228952AFF6A9000A862F0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF0228992AFF6A9000A862F0 /* PBXTargetDependency */,
-			);
-			name = AnimeLandUITests;
-			productName = AnimeLandUITests;
-			productReference = BF0228972AFF6A9000A862F0 /* AnimeLandUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,14 +167,6 @@
 				TargetAttributes = {
 					BF0228782AFF6A8F00A862F0 = {
 						CreatedOnToolsVersion = 15.0.1;
-					};
-					BF02288C2AFF6A9000A862F0 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = BF0228782AFF6A8F00A862F0;
-					};
-					BF0228962AFF6A9000A862F0 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = BF0228782AFF6A8F00A862F0;
 					};
 				};
 			};
@@ -266,8 +184,6 @@
 			projectRoot = "";
 			targets = (
 				BF0228782AFF6A8F00A862F0 /* AnimeLand */,
-				BF02288C2AFF6A9000A862F0 /* AnimeLandTests */,
-				BF0228962AFF6A9000A862F0 /* AnimeLandUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,21 +198,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF02288B2AFF6A9000A862F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF0228952AFF6A9000A862F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EB6C0D3ADD4050297458B9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimeLand-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF0228752AFF6A8F00A862F0 /* Sources */ = {
@@ -304,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF02287F2AFF6A8F00A862F0 /* ContentView.swift in Sources */,
-				BF0228812AFF6A8F00A862F0 /* Item.swift in Sources */,
 				BF0228B42AFF825000A862F0 /* AnimeModels.swift in Sources */,
 				BF0228AC2AFF78FB00A862F0 /* Network.swift in Sources */,
 				BF0228AF2AFF79A900A862F0 /* UserModel.swift in Sources */,
@@ -314,37 +240,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF0228892AFF6A9000A862F0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF0228922AFF6A9000A862F0 /* AnimeLandTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF0228932AFF6A9000A862F0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF02289E2AFF6A9000A862F0 /* AnimeLandUITestsLaunchTests.swift in Sources */,
-				BF02289C2AFF6A9000A862F0 /* AnimeLandUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BF02288F2AFF6A9000A862F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF0228782AFF6A8F00A862F0 /* AnimeLand */;
-			targetProxy = BF02288E2AFF6A9000A862F0 /* PBXContainerItemProxy */;
-		};
-		BF0228992AFF6A9000A862F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF0228782AFF6A8F00A862F0 /* AnimeLand */;
-			targetProxy = BF0228982AFF6A9000A862F0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BF02289F2AFF6A9000A862F0 /* Debug */ = {
@@ -399,10 +295,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -454,23 +352,31 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
 		BF0228A22AFF6A9000A862F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2AE357E001C814E1217BD1 /* Pods-AnimeLand.debug.xcconfig */;
 			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AnimeLand/AnimeLand.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AnimeLand/Preview Content\"";
+				DEVELOPMENT_TEAM = AJD7NPWNRX;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnimeLand/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -485,13 +391,15 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ray.AnimeLand;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.raycast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,14 +408,20 @@
 		};
 		BF0228A32AFF6A9000A862F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2024A55F326DCB6AD5DE7D5 /* Pods-AnimeLand.release.xcconfig */;
 			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AnimeLand/AnimeLand.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AnimeLand/Preview Content\"";
+				DEVELOPMENT_TEAM = AJD7NPWNRX;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnimeLand/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -522,102 +436,18 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ray.AnimeLand;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.raycast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BF0228A52AFF6A9000A862F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ray.AnimeLandTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeLand.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimeLand";
-			};
-			name = Debug;
-		};
-		BF0228A62AFF6A9000A862F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ray.AnimeLandTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeLand.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimeLand";
-			};
-			name = Release;
-		};
-		BF0228A82AFF6A9000A862F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ray.AnimeLandUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimeLand;
-			};
-			name = Debug;
-		};
-		BF0228A92AFF6A9000A862F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ray.AnimeLandUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimeLand;
 			};
 			name = Release;
 		};
@@ -638,24 +468,6 @@
 			buildConfigurations = (
 				BF0228A22AFF6A9000A862F0 /* Debug */,
 				BF0228A32AFF6A9000A862F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF0228A42AFF6A9000A862F0 /* Build configuration list for PBXNativeTarget "AnimeLandTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF0228A52AFF6A9000A862F0 /* Debug */,
-				BF0228A62AFF6A9000A862F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF0228A72AFF6A9000A862F0 /* Build configuration list for PBXNativeTarget "AnimeLandUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF0228A82AFF6A9000A862F0 /* Debug */,
-				BF0228A92AFF6A9000A862F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
